@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>JavaScript Drum Kit</h1>
+
+    <section id="drum-kit">
+        <img src="images/drum-kit.png">
+        <img src="images/crash.png" id="crash">
+        <img src="images/hihat-top.png" id="hiHat">
+        <div id="E" class="control-btn">E</div>
+        <div id="R" class="control-btn">R</div>
+        <div id="F" class="control-btn">F</div>
+        <div id="G" class="control-btn">G</div>
+        <div id="H" class="control-btn">H</div>
+        <div id="V" class="control-btn">V</div>
+        <div id="B" class="control-btn">B</div>
+        <div id="J" class="control-btn">J</div>
+        <div id="I" class="control-btn">I</div>
+        <div id="K" class="control-btn">K</div>
+    </section>
+
+    <aside id="side-bar">
+        <h2>Key Mapping</h2>
+        <section id="map-controls">
+            <div class="map-row">
+                <div class="control-btn map-btn">E</div>
+                <p>Crash</p>
+            </div>
+            <div class="map-row">
+                <div class="control-btn map-btn">R</div>
+                <p>Ride</p>
+            </div>
+            <div class="map-row">
+                <div class="control-btn map-btn">F</div>
+                <p>Floor Tom</p>
+            </div>
+            <div class="map-row">
+                <div class="control-btn map-btn">G</div>
+                <p>Mid Tom</p>
+            </div>
+            <div class="map-row">
+                <div class="control-btn map-btn">H</div>
+                <p>High Tom</p>
+            </div>
+            <div class="map-row">
+                <div class="control-btn map-btn">V</div>
+                <div class="control-btn map-btn">B</div>
+                <p>Kick</p>
+            </div>
+            <div class="map-row">
+                <div class="control-btn map-btn">J</div>
+                <p>Snare</p>
+            </div>
+            <div class="map-row">
+                <div class="control-btn map-btn">I</div>
+                <p>Hi-Hat Open</p>
+            </div>
+            <div class="map-row">
+                <div class="control-btn map-btn">K</div>
+                <p>Hi-Hat Closed</p>
+            </div>
+        </section>
+    </aside>
+
+    <audio src="audio/crash.wav" id="audio-crash"></audio>
+    <audio src="audio/ride.wav" id="audio-ride"></audio>
+    <audio src="audio/tom-low.wav" id="audio-tom-floor"></audio>
+    <audio src="audio/tom-mid.wav" id="audio-tom-mid"></audio>
+    <audio src="audio/tom-high.wav" id="audio-tom-high"></audio>
+    <audio src="audio/kick.wav" id="audio-kick"></audio>
+    <audio src="audio/snare.wav" id="audio-snare"></audio>
+    <audio src="audio/hihat-open.wav" id="audio-hihat-open"></audio>
+    <audio src="audio/hihat-close.wav" id="audio-hihat-close"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
